@@ -1,0 +1,6 @@
+CategoryID,Discontinued,ProductID,ProductName,QuantityPerUnit,ReorderLevel,SupplierID,UnitPrice,UnitsInStock,UnitsOnOrder
+1,false,1,Chai,10 boxes x 20 bags,10,1,18.0000,39,0
+1,false,2,Chang,24 - 12 oz bottles,25,1,19.0000,17,40
+2,false,3,Aniseed Syrup,12 - 550 ml bottles,25,1,10.0000,13,70
+2,false,4,Chef Anton's Cajun Seasoning,48 - 6 oz jars,0,2,22.0000,53,0
+2,true,5,Chef Anton's Gumbo Mix,36 boxes,0,2,21.3500,0,0

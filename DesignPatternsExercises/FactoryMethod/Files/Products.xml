@@ -1,0 +1,62 @@
+﻿<ArrayOfProduct>
+	<Product>
+		<CategoryID>1</CategoryID>
+		<Discontinued>false</Discontinued>
+		<ProductID>1</ProductID>
+		<ProductName>Chai</ProductName>
+		<QuantityPerUnit>10 boxes x 20 bags</QuantityPerUnit>
+		<ReorderLevel>10</ReorderLevel>
+		<SupplierID>1</SupplierID>
+		<UnitPrice>18.0000</UnitPrice>
+		<UnitsInStock>39</UnitsInStock>
+		<UnitsOnOrder>0</UnitsOnOrder>
+	</Product>
+	<Product>
+		<CategoryID>1</CategoryID>
+		<Discontinued>false</Discontinued>
+		<ProductID>2</ProductID>
+		<ProductName>Chang</ProductName>
+		<QuantityPerUnit>24 - 12 oz bottles</QuantityPerUnit>
+		<ReorderLevel>25</ReorderLevel>
+		<SupplierID>1</SupplierID>
+		<UnitPrice>19.0000</UnitPrice>
+		<UnitsInStock>17</UnitsInStock>
+		<UnitsOnOrder>40</UnitsOnOrder>
+	</Product>
+	<Product>
+		<CategoryID>2</CategoryID>
+		<Discontinued>false</Discontinued>
+		<ProductID>3</ProductID>
+		<ProductName>Aniseed Syrup</ProductName>
+		<QuantityPerUnit>12 - 550 ml bottles</QuantityPerUnit>
+		<ReorderLevel>25</ReorderLevel>
+		<SupplierID>1</SupplierID>
+		<UnitPrice>10.0000</UnitPrice>
+		<UnitsInStock>13</UnitsInStock>
+		<UnitsOnOrder>70</UnitsOnOrder>
+	</Product>
+	<Product>
+		<CategoryID>2</CategoryID>
+		<Discontinued>false</Discontinued>
+		<ProductID>4</ProductID>
+		<ProductName>Chef Anton's Cajun Seasoning</ProductName>
+		<QuantityPerUnit>48 - 6 oz jars</QuantityPerUnit>
+		<ReorderLevel>0</ReorderLevel>
+		<SupplierID>2</SupplierID>
+		<UnitPrice>22.0000</UnitPrice>
+		<UnitsInStock>53</UnitsInStock>
+		<UnitsOnOrder>0</UnitsOnOrder>
+	</Product>
+	<Product>
+		<CategoryID>2</CategoryID>
+		<Discontinued>true</Discontinued>
+		<ProductID>5</ProductID>
+		<ProductName>Chef Anton's Gumbo Mix</ProductName>
+		<QuantityPerUnit>36 boxes</QuantityPerUnit>
+		<ReorderLevel>0</ReorderLevel>
+		<SupplierID>2</SupplierID>
+		<UnitPrice>21.3500</UnitPrice>
+		<UnitsInStock>0</UnitsInStock>
+		<UnitsOnOrder>0</UnitsOnOrder>
+	</Product>
+</ArrayOfProduct>

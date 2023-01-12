@@ -1,0 +1,63 @@
+[
+  {
+    "CategoryID": 8,
+    "Discontinued": false,
+    "ProductID": 18,
+    "ProductName": "Carnarvon Tigers",
+    "QuantityPerUnit": "16 kg pkg.",
+    "ReorderLevel": 0,
+    "SupplierID": 7,
+    "UnitPrice": 62.5,
+    "UnitsInStock": 42,
+    "UnitsOnOrder": 0
+  },
+  {
+    "CategoryID": 3,
+    "Discontinued": false,
+    "ProductID": 19,
+    "ProductName": "Teatime Chocolate Biscuits",
+    "QuantityPerUnit": "10 boxes x 12 pieces",
+    "ReorderLevel": 5,
+    "SupplierID": 8,
+    "UnitPrice": 9.2,
+    "UnitsInStock": 25,
+    "UnitsOnOrder": 0
+  },
+  {
+    "CategoryID": 3,
+    "Discontinued": false,
+    "ProductID": 20,
+    "ProductName": "Sir Rodney's Marmalade",
+    "QuantityPerUnit": "30 gift boxes",
+    "ReorderLevel": 0,
+    "SupplierID": 8,
+    "UnitPrice": 81,
+    "UnitsInStock": 40,
+    "UnitsOnOrder": 0
+  },
+  {
+    "CategoryID": 3,
+    "Discontinued": false,
+    "ProductID": 21,
+    "ProductName": "Sir Rodney's Scones",
+    "QuantityPerUnit": "24 pkgs. x 4 pieces",
+    "ReorderLevel": 5,
+    "SupplierID": 8,
+    "UnitPrice": 10,
+    "UnitsInStock": 3,
+    "UnitsOnOrder": 40
+  },
+  {
+    "CategoryID": 5,
+    "Discontinued": false,
+    "ProductID": 22,
+    "ProductName": "Gustaf's Knäckebröd",
+    "QuantityPerUnit": "24 - 500 g pkgs.",
+    "ReorderLevel": 25,
+    "SupplierID": 9,
+    "UnitPrice": 21,
+    "UnitsInStock": 104,
+    "UnitsOnOrder": 0
+  }
+]
+ 
