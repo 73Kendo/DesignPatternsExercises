@@ -13,7 +13,7 @@ namespace DesignPatternsExercises.Singleton
 
         public static void Worker1()
         {
-            IParcelManager pm = new ParcelManager();
+            IParcelManager pm = ParcelManager.GetInstance();
             AddParcel(pm);
             AddParcel(pm);
             AddParcel(pm);
@@ -23,7 +23,7 @@ namespace DesignPatternsExercises.Singleton
 
         public static void Worker2()
         {
-            IParcelManager pm2 = new ParcelManager();
+            IParcelManager pm2 = ParcelManager.GetInstance();
             AddParcel(pm2);
             AddParcel(pm2);
             AddParcel(pm2);
@@ -34,7 +34,7 @@ namespace DesignPatternsExercises.Singleton
         public static void ShippingManager()
         {
             IWarehuseService ws = new WarehouseService();
-            IParcelManager pm = new ParcelManager();
+            IParcelManager pm = ParcelManager.GetInstance(); 
             ws.AssignShippingDate(pm);
             ws.Print(pm);
         }

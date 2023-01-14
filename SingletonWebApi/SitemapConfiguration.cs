@@ -1,14 +1,27 @@
-﻿using System.Xml.Linq;
+﻿using System.Globalization;
+using System.Xml.Linq;
 
 namespace SingletonWebApi
 {
-    public class SitemapConfiguration
+
+    public class SitemapConfiguration : ISitemapConfiguration
     {
-        public static string LoadConfiguration()
+        public SitemapConfiguration()
+        {
+            SiteMap = LoadConfiguration();
+        }
+        public string SiteMap { get; }
+        public string LoadConfiguration()
         {
             var sitemap = XDocument.Load(Path.Combine(Directory.GetCurrentDirectory(), "sitemap.xml"));
 
             return sitemap.ToString();
         }
+    }
+    public interface ISitemapConfiguration
+    {
+        string LoadConfiguration();
+        string SiteMap { get; }
+
     }
 }
