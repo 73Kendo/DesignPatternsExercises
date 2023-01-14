@@ -69,4 +69,16 @@
         public string Name => _oldInvoiceItem.Name;
         public string Description => "<no description>";
     }
+
+    //TODO
+    public class ThirdPartyInvoiceItem
+    {
+        public int Id { get; }
+        public string Navn { get; }
+        public string Beskrivelse { get; } = "";
+        public double Mva { get; }
+        public double Pris { get; }
+        public int AntallElementer { get; }
+
+    }
 }
